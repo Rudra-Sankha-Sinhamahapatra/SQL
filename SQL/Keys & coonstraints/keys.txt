@@ -1,0 +1,12 @@
+KEYS:
+
+PRIMARY KEY: unique id ,cant be null,there can be only primary key.
+suppose in the table there is two components in the table
+roll no and name then only one can be primary key
+we will take roll no as our primary key because roll no of every
+person will be different.
+
+FOREIGN KEYS: foreign key is a column (or set 
+of columns ) in a table that refers to the primary key.
+There can be multiple Foreign keys..Foreign keys can have duplicate
+& null values.
