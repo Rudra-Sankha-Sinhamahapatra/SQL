@@ -6,4 +6,4 @@ USE college;
 SELECT city,avg(marks)
 FROM student1 
 GROUP BY city
-ORDER BY ASC;
+ORDER BY city ASC;
