@@ -26,6 +26,13 @@ ALTER TABLE stud
 CHANGE marks score INT;
 
 USE college;
+ALTER TABLE stud
+CHANGE  score marks FLOAT;
+
+USE college;
+SELECT * FROM stud;
+
+USE college;
 
 -- modifies column datatypes
 ALTER TABLE student
