@@ -9,7 +9,7 @@ marks<25;
 USE college;
 
 SELECT * FROM student1 
-WHERE grade!='A' OR
+WHERE grade!="A" OR
 city!="Mumbai";
 
 USE college;
@@ -24,10 +24,16 @@ WHERE marks NOT BETWEEN 20 AND 25;
 
 USE college;
 
-SELECT * FROM student1 
+SELECT * FROM stud 
 WHERE city IN ("Delhi","Kolkata");
 
 USE college;
 
 SELECT * FROM student1 
 WHERE city NOT IN ("Delhi","Kolkata");
+
+USE college;
+select * from stud;
+
+USE COLLEGE;
+SELECT * FROM STUD WHERE CITY="DELHI" AND MARKS<26;
